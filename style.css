@@ -10,13 +10,13 @@ body {
 
 nav {
     position: fixed;
-    background-color: white;
+    background-color: #99DBF5;
     font-size: 20px;
     width: 100%;
     display: flex;
     align-items: center;
     height: 52px;
-    border-bottom: 2px solid #222222;
+    border-bottom: 2px solid white;
     z-index: 99999;
 }
 
@@ -31,7 +31,6 @@ nav {
 
   nav > ul > li > a {
     font-family: "Gilda Display";
-    text-transform: uppercase;
     line-height: 20px;
     letter-spacing: 2px;
     font-weight: normal;
@@ -54,12 +53,8 @@ nav {
   }
 
   nav > ul > li > a:hover {
-    color: grey;
+    color: #707070;
   }
-
-  /*#menu li a {
-
-  }*/
 
   section {
     margin: 0 16px;
@@ -83,17 +78,17 @@ nav {
   }
 
   h2 {
-    font-size: 50px;
+    font-size: 35px;
     text-align: center;
   }
 
   h3 {
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
   }
 
   h1 {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
   }
 
@@ -101,19 +96,30 @@ nav {
     font-size: 20px;
   }
 
+  #company {
+    background-color: #d6effc;
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+  }
+
   #founder .founder-container img {
-    width: 100%;
-    height: 500px;
+    max-width:fit-content;
     object-fit: cover;
+    margin-right: 20px;
+    padding: 20px 20px 20px 20px;
   }
 
   #founder .founder-container {
     display: flex;
-    flex-direction:column;
-    text-align:center;
-    justify-content: center;
+    justify-content: flex-end;
+    text-align: left;
+    background-color: #d6effc;
+    border-radius: 20px;
   }
 
+  .founder-container p {
+    padding: 35px 25px 0px 0px;
+  }
 
   .grid-container {
     display: grid;
@@ -175,6 +181,10 @@ nav {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
+    max-width: fit-content;
+    background-color: #d6effc;
+    border-radius: 20px;
+    padding: 20px 0px 20px 20px;
   }
 
   .feature-container .feature-1 {
@@ -260,6 +270,7 @@ nav {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
+    background-color: #99DBF5;
   }
 
   .footer-container .footer-1 {
@@ -323,20 +334,20 @@ nav {
   }
 
   .footer-1 > ul > li > a:hover {
-    color: grey;
+    color: #707070;
   }
 
   .footer-2 > ul > li > a:hover {
-    color: grey;
+    color: #707070;
   }
 
   .footer-3 > ul > li > a:hover {
-    color: grey;
+    color: #707070;
   }
 
   footer {
     text-align: center;
-    font-size: 5px;
+    font-size: 2px;
   }
 
   .footer-container h3 {
