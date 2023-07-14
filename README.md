@@ -82,4 +82,31 @@ This project is about create company profile for project milestone 1 of RevoU So
     <img src="https://i.imgur.com/CqZMpE4.jpg" alt="Picture of DNS records">
     <br><br>
 10. Finish, you can wait the process and check your domain
- 
+
+## Showcasing company profile
+1. Navigation bar for menu website
+2. Banner with image content
+3. Section 1 about company's vision
+   <br><br>
+   <img src="https://i.imgur.com/ACUOgSd.jpg" alt="Picture of navbar, banner, company's vision">
+   <br><br>
+4. Section 2 about profil and history from founder & designer
+    <br><br>
+   <img src="https://i.imgur.com/ZhDO2dC.jpg" alt="Picture of profil founder">
+   <br><br>
+5. Section 3 about products or design by founder
+   <br><br>
+   <img src="https://i.imgur.com/bf42gCJ.jpg" alt="Picture of products">
+   <br><br>
+6. Section 4 about events that display the products
+   <br><br>
+   <img src="https://i.imgur.com/Z5qDrGJ.jpg" alt="Picture of partnership">
+   <br><br>
+7. Section 5 there's a form for visitors ask detail about products
+   <br><br>
+   <img src="https://i.imgur.com/M8vKZWE.jpg" alt="Picture of form message">
+   <br><br>
+8. Footer that contain navbar, social media, and contact of company
+   <br><br>
+   <img src="https://i.imgur.com/j6T1wmQ.jpg" alt="Picture of footer">
+   <br><br>
