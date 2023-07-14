@@ -1,0 +1,435 @@
+@font-face {
+    font-family: product;
+    src: url(webfonts/fa-v4compatibility.woff2)
+}
+
+body {
+    font-family: "Gilda Display";
+    margin: 0;
+  }
+
+nav {
+    position: fixed;
+    background-color: white;
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 52px;
+    border-bottom: 2px solid #222222;
+    z-index: 99999;
+}
+
+  nav > ul {
+  margin-left: auto;
+  margin-right: 20px;
+  }
+
+  nav > ul > li {
+    display: inline-block;
+  }
+
+  nav > ul > li > a {
+    font-family: "Gilda Display";
+    text-transform: uppercase;
+    line-height: 20px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    font-style: normal;
+    color: #222222;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+  }
+  
+  /*nav > span > img {
+    height: 32px;
+    width: auto;
+    padding: 8px;
+  }*/
+  
+  nav > span {
+    display: flex;
+    align-items: center;
+  }
+
+  nav > ul > li > a:hover {
+    color: grey;
+  }
+
+  /*#menu li a {
+
+  }*/
+
+  section {
+    margin: 0 16px;
+  }
+  
+  /*section.fullscreen {
+    margin: 0;
+  }
+
+  .relative-container {
+    position: relative;
+  }*/
+
+
+  header {
+    height: 500px;
+    background-image: url(https://i.imgur.com/rZ0hx0B.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  #founder .founder-container img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+
+  #founder .founder-container {
+    display: flex;
+    flex-direction:column;
+    text-align:center;
+    justify-content: center;
+  }
+
+
+  .grid-container {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .grid-container #product-1{
+    grid-column: 1;
+    grid-row: 1;
+    background-size: cover;
+  }
+
+  .grid-container #product-2 {
+    grid-column: 2;
+    grid-row: 1;
+    background-size: cover;
+  }
+
+  .grid-container #product-3 {
+    grid-column: 3;
+    grid-row: 1;
+    background-size: cover;
+  }
+
+  .product-container {
+    position: relative;
+  }
+
+  img {
+    max-width: 100%;
+    height:auto;
+  }
+
+  .product-container:hover {
+    filter: grayscale(50%);
+    cursor: pointer;
+  }
+
+  .image-caption {
+    opacity: 0;
+    width: 180px;
+    position: absolute;
+    top: 200px;
+    left: 125px;
+  }
+
+  .image-caption h1 {
+    align-items: center;
+    color: white;
+    font-family: product;
+  }
+
+  .product-container:hover .image-caption {
+    opacity: 1;
+  }
+
+  .feature-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .feature-container .feature-1 {
+    grid-column: 1;
+    grid-row: 1;
+    background-size: cover;
+  }
+
+  .feature-container .feature-2 {
+    grid-column: 2;
+    grid-row: 1;
+    background-size: cover;
+  }
+
+  .feature-container .feature-3 {
+    grid-column: 3;
+    grid-row: 1;
+    background-size: cover;
+  }
+
+  .feature-container .feature-4 {
+    grid-column: 1;
+    grid-row: 2;
+    background-size: cover;
+  }
+
+  .feature-container .feature-5 {
+    grid-column: 2;
+    grid-row: 2;
+    background-size: cover;
+  }
+
+  .feature-container .feature-6 {
+    grid-column: 3;
+    grid-row: 2;
+    background-size: cover;
+  }
+
+  fieldset {
+    margin: 16px 0;
+    border-radius: 4px;
+  }
+
+  #form-section {
+    background-color: white;
+    color: black;
+    padding: 8px;
+    margin-top: 16px;
+  }
+
+  
+  #form-section form {
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    border: 1px solid #42352E;
+    height: 64px;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    font-family: "Gilda Display";
+}
+
+  button[type="submit"] {
+    width: 100%;
+    padding: 22px 127px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFF;
+    background-color: #42352E;
+    margin-bottom: 60px;
+}
+
+  .footer-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .footer-container .footer-1 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .footer-container .footer-2 {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .footer-container .footer-3 {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  .footer-1 > ul > li > a {
+    font-family: "Gilda Display";
+    line-height: 20px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    font-style: normal;
+    color: #222222;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .footer-2 > ul > li > a {
+    font-family: "Gilda Display";
+    line-height: 20px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    font-style: normal;
+    color: #222222;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .footer-3 > ul > li > a {
+    font-family: "Gilda Display";
+    line-height: 20px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    font-style: normal;
+    color: #222222;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .footer-1 > ul {
+    list-style: none;
+  }
+
+  .footer-2 > ul {
+    list-style: none;
+  }
+
+  .footer-3 > ul {
+    list-style: none;
+  }
+
+  .footer-1 > ul > li > a:hover {
+    color: grey;
+  }
+
+  .footer-2 > ul > li > a:hover {
+    color: grey;
+  }
+
+  .footer-3 > ul > li > a:hover {
+    color: grey;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 5px;
+  }
+
+  .footer-container h3 {
+    font-family: "Gilda Display";
+  }
+
+  /* for tablet and desktop */
+@media only screen and (max-width: 1023px) {
+  .grid-container {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr;
+  }
+
+  .grid-container #product-1{
+    grid-column: 1;
+    grid-row: 1;
+    background-size: cover;
+  }
+
+  .grid-container #product-2 {
+    grid-column: 1;
+    grid-row: 2;
+    background-size: cover;
+  }
+
+  .grid-container #product-3 {
+    grid-column: 1;
+    grid-row: 3;
+    background-size: cover;
+  }
+
+  .feature-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .feature-container .feature-1 {
+    grid-column: 1;
+    grid-row: 1;
+    background-size: cover;
+  }
+
+  .feature-container .feature-2 {
+    grid-column: 2;
+    grid-row: 1;
+    background-size: cover;
+  }
+
+  .feature-container .feature-3 {
+    grid-column: 1;
+    grid-row: 2;
+    background-size: cover;
+  }
+
+  .feature-container .feature-4 {
+    grid-column: 2;
+    grid-row: 2;
+    background-size: cover;
+  }
+
+  .feature-container .feature-5 {
+    grid-column: 1;
+    grid-row: 3;
+    background-size: cover;
+  }
+
+  .feature-container .feature-6 {
+    grid-column: 2;
+    grid-row: 3;
+    background-size: cover;
+  }
+
+  .footer-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-container .footer-1 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .footer-container .footer-2 {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .footer-container .footer-3 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+}
+
